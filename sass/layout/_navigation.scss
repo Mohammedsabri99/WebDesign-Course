@@ -1,0 +1,45 @@
+.navbar {
+    background: linear-gradient(360deg, rgba($main-color, 0.4), rgba($secondary-color, 0.4)) !important;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    @include lg {font-size: 12px;}
+    
+    .navbar-brand  {
+        margin: 0px;
+        padding: 0px;
+
+        img {
+            height: 60px;
+
+            @include lg {height: 50px;}
+        }
+    }
+
+    .navbar-nav {
+        li {
+            padding-right: 1.7rem;
+
+            @include lg {padding-right: 0px;}
+
+            .nav-link {
+                color: $white-color;
+                padding-top: .8rem;
+                transition: all .8s ease-in-out;
+
+                &.active,
+                &:hover {
+                    color: $secondary-color;
+                    transform: scale(1.4);
+
+                    @include xs {transform: scale(1.1);}
+                    @include sm {transform: scale(1.1);}
+                    @include md {transform: scale(1);}
+                    @include lg {transform: scale(1.1);}
+                }
+            }
+        }
+    }
+}

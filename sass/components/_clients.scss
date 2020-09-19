@@ -1,0 +1,16 @@
+.clients {
+    img {
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    blockquote {
+        .svg-inline--fa {
+            color: $main-color;
+            margin: 1rem;
+        }
+
+        p {text-indent: 3rem;}
+        .clients-hr {border-top: 0.05rem solid $main-color;}
+    } 
+}

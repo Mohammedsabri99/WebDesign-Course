@@ -1,0 +1,38 @@
+footer {
+    background-color: #40474e;
+    color: $white-color;
+    padding: 20px 0px;
+    margin-top: 1rem;
+
+    img {
+        height: 100px;
+        margin: 0px 0px 20px 0;
+    }
+
+    a {
+        color: $white-color;
+        padding: 0px 20px 0px 20px;
+
+        svg.svg-inline--fa {
+            font-size: 1.6rem;
+            margin: 1.2rem .5rem 0 0;
+            transition: all .8s ease-in-out;
+
+            &:hover {
+                color: $main-color !important;
+                transform: scale(1.4);
+            }
+        }
+    }
+
+    .socket {
+        width: 100%;
+        border-top: .2rem solid $third-color;
+        margin-top: 3rem;
+    }
+    .copyright {
+        font-size: 30px;
+        font-weight: 700;
+        color: $main-color;
+    }
+}

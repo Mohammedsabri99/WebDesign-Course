@@ -1,0 +1,40 @@
+.jumbotron {
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+
+    .heading {
+        font-size: 1.9rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 1.9rem;
+    }
+
+    .heading-underline {
+        width: 3rem;
+        height: .2rem;
+        background-color: $main-color;
+        margin: 0 auto 2rem;
+    }
+
+    .feature {
+        svg.svg-inline--fa {color: $main-color;}
+
+        h3 {
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            padding-bottom: .4rem;
+
+            @include xs {font-size: 20px;}
+            @include sm {font-size: 20px;}
+        }
+
+        p {
+            font-size: 1.1rem;
+
+            @include xs {text-align: justify;}
+            @include sm {text-align: justify;}
+            @include md {text-align: justify;}
+        }
+    }
+}
